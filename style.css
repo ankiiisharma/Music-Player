@@ -1,9 +1,22 @@
 body {
-    background-color: #15c4ff;
+    background-color: #000c11;
     }
+ 
+    .btn{
+        background-color: transparent;
+        cursor: pointer;
+        font-size: large;
+        color: rgb(241, 238, 231);  
+        font-size: 35px;
+        border: none;
+      }
 
+.container{
 
+    display: flex;
+    justify-content: center;
+}
 
-.audio{
-    position: fixed;
+.btn:hover{
+    color: rgb(59, 251, 0);
 }
