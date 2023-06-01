@@ -20,3 +20,10 @@ body {
 .btn:hover{
     color: rgb(59, 251, 0);
 }
+
+.playing{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: poppins;
+    font-weight: 500;
+}
