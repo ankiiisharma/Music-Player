@@ -12,7 +12,7 @@ DilMere.play();
 const prevBtn = document.querySelector('.previous');
 const playBtn = document.querySelector('.play-pause');
 const nextBtn = document.querySelector('.next');
-
+const songName = document.querySelector('.song-name');
 
 const songs = [
     { ele: Aaftaab, audioName:'Aaftaab - Local Train' },
@@ -21,5 +21,6 @@ const songs = [
     { ele: DilMere, audioName:'Dil Mera - Local Train' },
 ];
 
-let current
+let current = 0;
 let currentSong = songs[current].ele;
+songName.textContent = songs[current].audioName;
