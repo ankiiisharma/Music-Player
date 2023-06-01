@@ -3,12 +3,6 @@ const WBV = new Audio('./songs/WBV.mp3');
 const KaiseyJiyun = new Audio('./songs/Kaisey_Jiyun.mp3');
 const DilMere = new Audio('./songs/Dil_Mere.mp3');
 
-
-Aaftaab.play();
-WBV.play();
-KaiseyJiyun.play();
-DilMere.play();
-
 const prevBtn = document.querySelector('.previous');
 const playBtn = document.querySelector('.play-pause');
 const nextBtn = document.querySelector('.next');
@@ -24,3 +18,9 @@ const songs = [
 let current = 0;
 let currentSong = songs[current].ele;
 songName.textContent = songs[current].audioName;
+
+
+playBtn.addEventListener('click',()=>{
+    if
+    currentSong.play();
+})
