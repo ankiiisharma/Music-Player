@@ -1,7 +1,23 @@
 body {
-    background-color: #000c11;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
     }
  
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+    
+
     .btn{
         background-color: transparent;
         cursor: pointer;
@@ -25,5 +41,5 @@ body {
     color: rgb(255, 255, 255);
     text-align: center;
     font-family: poppins;
-    font-weight: 500;
+    font-weight: 400;
 }
