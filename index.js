@@ -23,15 +23,16 @@ let currentSong = songs[current].ele;
 songName.textContent = songs[current].audioName;
 
 
-playBtn.addEventListener('click',()=>{
-    if (currentSong.paused)
-    {
-        currentSong.play();
-        PlayPauseIcon.className = 'ph-fill ph-play-circle';
-    }
-    else
-    {
-        currentSong.pause();
-        PlayPauseIcon.className = 'ph-fill ph-pause-circle';
-    }
-})
+currentSong.play();
+// playBtn.addEventListener('click',()=>{
+//     if (currentSong.paused)
+//     {
+//         currentSong.play();
+//         PlayPauseIcon.className = 'ph-fill ph-play-circle';
+//     }
+//     else
+//     {
+//         currentSong.pause();
+//         PlayPauseIcon.className = 'ph-fill ph-pause-circle';
+//     }
+// })
